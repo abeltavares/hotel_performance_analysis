@@ -15,8 +15,6 @@ The report is based on fictional data and is provided anonymously, without refer
 - [Contributing](#contributing)
 - [License](#license)
 
-The report is based on fictional data and is provided anonymously, without reference to any specific company. The purpose of this report is to demonstrate the capabilities of Power BI as a data analysis tool and to showcase some of the most common visualizations and analyses used in financial reporting.
-
 ## Getting Started
 To view the report, you will need to have Power BI Desktop installed on your computer. The report can be downloaded as a PBIX file from this repository and opened in Power BI Desktop.
 
