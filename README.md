@@ -4,6 +4,9 @@
 
 
 # Hotel Performance Analysis
+
+![Demo](assets/web_app_demo.gif)
+
 This is a Power BI report that analyzes the performance of a hotel. The report includes visualizations and analysis of the organization's financials, including the balance sheet, income statement, and revenue analysis. Additionally, it includes a detailed analysis of customer trends and expenditure patterns.
 
 The report is based on fictional data and is provided anonymously, without reference to any specific company. The purpose of this report is to demonstrate the capabilities of Power BI as a data analysis tool and to showcase some visualizations and analyses used in financial reporting.
