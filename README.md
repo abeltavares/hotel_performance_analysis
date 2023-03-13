@@ -14,15 +14,6 @@ The report is based on fictional data and is provided anonymously, without refer
 
 **Note: This project is in Portuguese language.**
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Report Structure](#report-structure)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Getting Started
-To view the report, you will need to have Power BI Desktop installed on your computer. The report can be downloaded as a PBIX file from this repository and opened in Power BI Desktop.
 
 ## Report Structure
 - General Report: Provides an overall view of the hotel's performance, including its cost structure and revenue sources.
