@@ -36,7 +36,4 @@ To view the report, you will need to have Power BI Desktop installed on your com
 - Economic and Financial Analysis: allows for a more in-depth economic and financial analysis of overall performance, displaying many of the financial and economic ratios and activity and performance ratios defined above in the requirements and represented in the figures above.
 
 ## Contributing
-As this report is provided anonymously, contributions are not accepted. However, feel free to use this report as inspiration for your own data analysis projects.
-
-## License
-This report is provided anonymously and is not licensed for distribution or use beyond personal educational purposes.
+Contributions are welcome! Please feel free to open an issue.
