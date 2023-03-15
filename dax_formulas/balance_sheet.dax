@@ -1,0 +1,38 @@
+Total_Balanço =
+// Calculate the balance sheet
+VAR Ativo =
+    // Calculate the sum of debit balances grouped by account 
+    SUMX(
+        // Group rows by account and calculate the sum of debit balances for each group
+        SUMMARIZE(
+            'Matriz Conversão (balanço)',
+            'Matriz Conversão (balanço)'[Conta],
+            "Ativo", SUM('Balancete'[Saldo Débito])
+        ),
+        [Ativo] // Sum of debit balances for each group 
+    )
+
+VAR Passivo =
+    // Calculate the sum of credit balances grouped by account 
+    SUMX(
+        // Group rows by account and calculate the sum of credit balances for each group
+        SUMMARIZE(
+            'Matriz Conversão (balanço)',
+            'Matriz Conversão (balanço)'[Conta],
+            "Passivo", SUM('Balancete'[Saldo Crédito])
+        ),
+        [Passivo] // Sum of credit balances for each group
+    )
+
+VAR MetodoCalculo =
+    // Get the BS items order from 'Rank_Rubrica' column in the 'Matriz Conversão (balanço)' table 
+    SELECTEDVALUE('Matriz Conversão (balanço)'[Rank_Rubrica])
+
+RETURN
+    // Return the calculated balance based on the selected calculation method
+    SWITCH(
+        TRUE(),
+        MetodoCalculo = 1, Ativo, // If the selected calculation method is 1, return the value stored in the Ativo variable
+        MetodoCalculo = 2, Passivo, // If the selected calculation method is 2, return the value stored in the Passivo variable
+        BLANK() // Otherwise, return a blank value
+    )

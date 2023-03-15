@@ -1,0 +1,29 @@
+Total_DR = 
+
+// Get the maximum value of 'Ordem' from the 'Matriz DR (formato)' table
+VAR varordercontexto = MAX('Matriz DR (formato)'[Ordem ])
+
+// Calculate the difference between the total credit and debit balance
+VAR varvalor = SUM('Balancete'[Saldo Crédito]) - SUM('Balancete'[Saldo Débito])
+
+// Calculate the subtotal for the selected 'Ordem' value in the 'Matriz DR (formato)' table
+VAR varvalorsubtotal = 
+    CALCULATE(
+        (SUM('Balancete'[Saldo Crédito]) - SUM('Balancete'[Saldo Débito])),
+        FILTER(
+            ALL('Matriz DR (formato)'),
+            'Matriz DR (formato)'[Ordem ]<=varordercontexto
+        )
+    )
+
+// Get the IS item order from the 'Matriz DR (formato)' table
+VAR varsubtotal = SELECTEDVALUE('Matriz DR (formato)'[Subtotal])
+
+// Determine the value accordingly with type of item in the IS
+RETURN 
+    SWITCH(
+        TRUE(),
+        varsubtotal = 0, varvalor, // If 'Subtotal' = 0, return the difference between credit and debit balances
+        varsubtotal = 1, varvalorsubtotal, // If 'Subtotal' = 1, return the subtotal for the selected IS items 
+        BLANK() // Otherwise, return BLANK()
+    )
