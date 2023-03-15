@@ -9,7 +9,7 @@
 
 This is a Power BI report that analyzes the performance of a hotel. The report includes visualizations and analysis of the organization's financials, including the balance sheet, income statement, and revenue analysis. Additionally, it includes a detailed analysis of customer trends and expenditure patterns.
 
-The report is based on fictional data and is provided anonymously, without reference to any specific company. The purpose of this report is to demonstrate the capabilities of Power BI as a data analysis tool and to showcase some visualizations and analyses used in financial reporting.
+The report is based on fictional data, without reference to any specific company. The purpose of this report is to demonstrate the capabilities of Power BI as a data analysis tool and to showcase some visualizations and analyses used in financial reporting.
 
 
 **Note: This project is in Portuguese language.**
@@ -22,9 +22,17 @@ The report is based on fictional data and is provided anonymously, without refer
 - Customers: Focuses on customer trends, including monthly and annual occupancy rates and analysis of top customer markets.
 - Revenue: Provides analysis of monthly and annual revenue trends, including breakdowns of revenue sources.
 - Expenses: Analyzes annual expenditure patterns and highlights the most significant expenses.
-- Personnel Expenses: provides a more detailed analysis of employee expenses, including breakdowns by department.
+- Personnel Expenses: Provides a more detailed analysis of employee expenses, including breakdowns by department.
 - Restaurant: Provides analysis of the hotel's restaurant business, including revenue and profit analysis.
-- Economic and Financial Analysis: allows for a more in-depth economic and financial analysis of overall performance, displaying many of the financial and economic ratios and activity and performance ratios defined above in the requirements and represented in the figures above.
+- Economic and Financial Analysis: Allows for a more in-depth economic and financial analysis of overall performance, displaying many of the financial and economic ratios and activity and performance ratios defined above in the requirements and represented in the figures above.
 
-## Contributing
-Contributions are welcome! Please feel free to open an issue.
+## DAX Metrics
+- The `dax_formulas` folder contains DAX formulas used in the Balance Sheet and Income Statement visualizations.
+- `balance_sheet.dax` file contains the DAX formula used for the Balance Sheet visualization.
+- `income_statement.dax` file contains the DAX formula used for the Income Statement visualization.
+
+## Project Guidelines
+- The `project_guideline.md` file provides an overview of the project's definition, conception, and objectives.
+
+## Copyright
+© 2023 Abel Tavares
