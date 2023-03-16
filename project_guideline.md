@@ -7,7 +7,7 @@ This project aims to develop a business intelligence solution for a hospitality 
 ## Objectives
 - Develop a business intelligence reporting solution that allows the company to monitor their financial performance and make data-driven decisions.
 - Enable the company to identify areas of their business that require improvement and leverage trends and patterns in their data for more accurate decisions and planning.
-- Provide insights into key financial indicators.
+- Provide insights into key business indicators.
 
 ## Requirements
 The dashboard should present financial and operational information related to the company. In the financial aspect, the following topics are to be presented:
