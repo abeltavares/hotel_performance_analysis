@@ -7,7 +7,7 @@ This project aims to develop a business intelligence solution for a hospitality 
 ## Objectives
 - Develop a business intelligence solution that allows the company to monitor their financial performance and make data-driven decisions.
 - Enable the company to identify areas of their business that require improvement and leverage trends and patterns in their data for more accurate decisions and planning.
-- Provide insights into key financial indicators
+- Provide insights into key financial indicators.
 
 ## Definition
 The project will involve the creation of a data model by extracting and importing data from the company's ERP system and hotel management software into Microsoft Power BI. The data will be modeled, including the creation of the following matrices:
@@ -15,6 +15,7 @@ The project will involve the creation of a data model by extracting and importin
 - `Balanço Patrimonial` (Balance Sheet) 
 - `Demonstração de Resultados` (Income Statement) 
 - `Rendimentos` (Revenue) 
+- `Gastos com pessoal` (Personnel expenses) 
 
 The matrices will define the corresponding accounts for each item in the structure.
 
