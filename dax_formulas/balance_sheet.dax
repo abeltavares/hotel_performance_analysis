@@ -1,4 +1,5 @@
 balanço =
+
 // Calculate the balance sheet
 VAR Ativo =
     // Calculate the sum of debit balances grouped by account 
