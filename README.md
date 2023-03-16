@@ -35,4 +35,4 @@ The report is based on fictional data, without reference to any specific company
 - The `project_guideline.md` file provides an overview of the project's definition, conception, and objectives.
 
 ## Copyright
-© 2023 Abel Tavares
+© 2021 Abel Tavares
