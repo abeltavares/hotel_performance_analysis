@@ -16,15 +16,15 @@ The report is based on fictional data, without reference to any specific company
 
 
 ## Report Structure
-- General Report: Provides an overall view of the hotel's performance, including its cost structure and revenue sources.
-- Balance Sheet: Reflects on the hotel's financial situation by analyzing the balance sheet and key financial ratios.
-- Income Statement: Analyzes the income statement with a focus on key financial indicators such as net income, EBITDA, and EBIT.
-- Customers: Focuses on customer trends, including monthly and annual occupancy rates and analysis of top customer markets.
-- Revenue: Provides analysis of monthly and annual revenue trends, including breakdowns of revenue sources.
-- Expenses: Analyzes annual expenditure patterns and highlights the most significant expenses.
-- Personnel Expenses: Provides a more detailed analysis of employee expenses, including breakdowns by department.
-- Restaurant: Provides analysis of the hotel's restaurant business, including revenue and profit analysis.
-- Economic and Financial Analysis: Allows for a more in-depth economic and financial analysis of overall performance, displaying many of the financial and economic ratios and activity and performance ratios defined above in the requirements and represented in the figures above.
+- `General Report` : Provides an overall view of the hotel's performance, including its cost structure and revenue sources.
+- `Balance Sheet` : Reflects on the hotel's financial situation by analyzing the balance sheet and key financial ratios.
+- `Income Statement` : Analyzes the income statement with a focus on key financial indicators such as net income, EBITDA, and EBIT.
+- `Customers` : Focuses on customer trends, including monthly and annual occupancy rates and analysis of top customer markets.
+- `Revenue` : Provides analysis of monthly and annual revenue trends, including breakdowns of revenue sources.
+- `Expenses` : Analyzes annual expenditure patterns and highlights the most significant expenses.
+- `Personnel Expenses` : Provides a more detailed analysis of employee expenses, including breakdowns by department.
+- `Restaurant` : Provides analysis of the hotel's restaurant business, including revenue and profit analysis.
+- `Economic and Financial Analysis` : Allows for a more in-depth economic and financial analysis of overall performance, displaying many of the financial and economic ratios and activity and performance ratios defined above in the requirements and represented in the figures above.
 
 ## DAX Metrics
 - The `dax_formulas` folder contains DAX formulas used in the Balance Sheet and Income Statement visualizations.
