@@ -1,4 +1,4 @@
-Total_DR = 
+demonstração_resultados = 
 
 // Get the maximum value of 'Ordem' from the 'Matriz DR (formato)' table
 VAR varordercontexto = MAX('Matriz DR (formato)'[Ordem ])
